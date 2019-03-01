@@ -1,31 +1,28 @@
 
-# The Monkees website
+# Simon Game
  
 ## Overview
-Website created for a reunted rock band The Monkees.
-Front end only; design focused on simplicity and user friendlyness. 
+Website created for a people who want to play free memory game.
+Interactive Frintend Development; design focused on simplicity and user friendlyness. 
 
  
 ### What is this website for?
-Website aiming at an older audience of the band's fans and potentialy new customers. 
-The purpose of this website is for the vistor to be able to learn more about the band, listen to their music and check their availability for booking.
+Website is aiming:
+-at all age audience
+-people who want to play simple and quick game for free. 
+The purpose of this website is for the vistor to be able to play, visit place where he can buy the game or read about it.
  
-### What does it do?
-Simple website with four pages for Home, About us, Media, Booking.
-The user can easily navigate around the page to learn information about the band, listen to their music, check their socila media and book the band for an event.
 
 ### How does it work
-Based on Bootstrap 3.3.7 carousel framework.
-The site uses:Bootstrap style with some customizations, simple Javascript for carousel and JQuery.
+Based on Bootstrap 3.3.7 framework.
+The site uses:Bootstrap style with some customizations, Javascript,JQuery, HTML and CSS.
 
 ## Features
  
 ### Existing Features
-- Home page - contains an eye-catching carousel,section to choose between other pages and section with events.
-- About page - contains simple information about the band with pictures.
-- Media page - contains videos and audio tracks of the band.  
-- Booking page- contains a form that enables visitor to book an event or enquire about their availability.
-- Links - enables visitor to check social media of the band.
+- Navbar - enables visitor to check link where he can buy the game and read about it.
+- Home page - contains an eye-catching game board and short description of the game.
+- Links - enables visitor to check my social media.
 
 ### Features Left to Implement
 - None
@@ -33,12 +30,12 @@ The site uses:Bootstrap style with some customizations, simple Javascript for ca
 ## Tech Used
 
 ### Some the tech used includes:
-- **HTML**, **CSS** and **Javascript**
+- **HTML**, **CSS** and **Javascript** 
   - Base languages used to create website
 - [Bootstrap](http://getbootstrap.com/)
     - I used **Bootstrap** to give our project a simple, responsive layout
 - [JQuery](https://jquery.com)
-    - I used **JQuery** for boostrap and displaying modal
+    - **JQuery** 
 
 ## Testing
 - All code used on the site has been tested to ensure everything is working as expected
@@ -46,21 +43,26 @@ The site uses:Bootstrap style with some customizations, simple Javascript for ca
   - Google Chrome
   - Microsoft Edge
   - Mozilla Firefox
+- Site was validated with online tools: https://jigsaw.w3.org/css-validator/ and https://validator.w3.org/
+
 
 ## Contributing
 All contributions to improving our code and accept pull requests are welcome.
  
 ### Deployment
 1.Clone this repository by opening your Terminal, change the current working directory to the location where you want the cloned directory to be made.
-    2.Type $ git clone " https://justynagrze.github.io/The-Monkees-website/" and hit Enter. Your repository will be ready.
+    2.Type $ git clone " https://justynagrze.github.io/SIMON-GAME/." and hit Enter. Your repository will be ready.
 3.Run the index.html, open in a broswer and the page will display
 
 ## Credits
 
 ### Media
-- The photos used in this site were obtained from https://www.facebook.com/pg/TheMonkees/photos/?ref=page_internal, https://www.bbc.co.uk/music/artists/b8549efe-f4fd-4dc0-8ef1-226e9c400233
-- The video used on this site https://www.youtube.com/embed/videoseries?list=PL5Q0rmbUUNO3m5M5TdCZrdQ-md0rFHlcl
-- 
+- The photos used in this site were obtained from: https://www.shutterstock.com/
+- The sounds used on this site: "https://s3.amazonaws.com/freecodecamp/simonSound3.mp3",
+                                "https://s3.amazonaws.com/freecodecamp/simonSound2.mp3",
+                                "https://s3.amazonaws.com/freecodecamp/simonSound1.mp3",
+                                "https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"
+
 
 
 ## Developer
@@ -68,6 +70,8 @@ Justyna Grzeszczyk (email:justyna.grzeszczyk91@gmail.com)
 
 
 ### Information
-- The information used to create this site was from a number of sources
-    - Wikipedia webpage on https://en.wikipedia.org/wiki/The_Monkees
+- The information used to create this site was from a number of sources:
+    - stack overflow
+    - wikipedia
+    - youtube
    
