@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Simon-Game</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet"> 
+      
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid nav-properties">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Simon Game</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Buy</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <main class="container-fluid">
+            <div class="container-fluid play-area">
+                <div id="btn0" class=" game-btn top-left"></div>
+                <div id="btn1" class=" game-btn top-right"></div>
+                <div id="btn2" class="game-btn bottom-right"></div>
+                <div id="btn3" class=" game-btn bottom-left"></div>
+                <div class="center-circle ">
+                    <div class="center-panel">
+                        <p class="game-title">Simon</p>
+                        <div class="row">
+                            <label class="label" for="btn-start">PLAY</label>
+                            <button class="btn-small" id="btn-start"></button>
+                            <label id="strict-label" class="label" for="btn-strict">STRICT</label>
+                            <button class="btn-small" id="btn-strict"></button>
+                            <label class="label" for="btn-reset">RESET</label>
+                            <button class="btn-small" id="btn-reset"></button>
+                        </div>
+                        <div class="row">
+                            <input id="score-screen" placeholder="--" disabled>
+                            <button class="strict-led" disabled></button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </main>
+
+        <article class="container-fluid article-style">
+            <div class= container>
+                <div class= "row justify-content-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                        <h2 class="text-center">Let's start!</h2>
+                        <p class="text-center"> This game is a great exercise for training the memory while having fun! It was released by Milton Bradley in 1978 and to this day is number one worldwide.
+                 To start the game simply press PLAY and follow the pattern of lights and sounds.To make it harder press strict mode.
+                 With time the combidation it's more complec and challenging.<br><strong>Don't forget to tell your friends!</p></strong>
+                    </div>
+                </div>
+            </div>
+        </article>
+      
+         <footer>
+             <ul class="list-inline social-links">
+                 <li><a target="blank" href="https://github.com/JustynaGrze"><i class="fa fa-github"></i></a></li>
+                 <li><a target="blank" href="https://www.linkedin.com/in/justyna-grzeszczyk-23ab8610a/k"><i class="fa fa-linkedin"></i></a></li>
+                 <li><a target="blank" href="https://github.com/JustynaGrze"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p class="footer-text">&copy; 2019 Justyna Grzeszczyk  &middot; </p>
+        </footer>
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+         <script src="js/index.js"></script>
+    </body>
+</html>
